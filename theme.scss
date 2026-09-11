@@ -18,6 +18,15 @@ $link-hover-color: black;
 $navbar-bg: $navbar-gray;
 $navbar-fg: #ffffff;
 
+// Quarto always renders the navbar with data-bs-theme="dark", and
+// Bootstrap's dark-navbar defaults use translucent (not solid) white
+// for nav links — override so the text is fully opaque white.
+$navbar-dark-color: #ffffff;
+$navbar-dark-hover-color: #ffffff;
+$navbar-dark-active-color: #ffffff;
+$navbar-dark-brand-color: #ffffff;
+$navbar-dark-brand-hover-color: #ffffff;
+
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
 $headings-font-family: "Lora", Georgia, serif;
@@ -35,6 +44,18 @@ body {
 .navbar-title {
   font-weight: 600;
   letter-spacing: 0.02em;
+}
+
+// Belt-and-suspenders: Bootstrap's compiled dark-navbar active/hover
+// colors don't always pick up the Sass variable overrides above, so
+// force the custom properties directly.
+.navbar,
+.navbar[data-bs-theme="dark"] {
+  --bs-navbar-color: #ffffff;
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
 }
 
 hr {

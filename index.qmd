@@ -12,7 +12,7 @@ title: ""
   if (!el) return;
   var messages = [
     'Resilience, Energy, and Inequity in Neighborhood Environments',
-    '“Reine” is also French for “queen” — and it’s Misbath’s middle name.'
+    '“Reine” is also French for “queen.”'
   ];
   var i = 0;
   setInterval(function() {
