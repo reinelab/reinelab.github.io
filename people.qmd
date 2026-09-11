@@ -75,4 +75,5 @@ Alan is an undergraduate student at UC Berkeley majoring in Applied Mathematics 
 
 ## Alumni
 
-- [Name] ([Role], [Years]) — now at [Current Position]
+- Erika Tam
+- Benjamin Kramer

@@ -16,15 +16,13 @@ website:
         href: research.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "News"
-        href: news.qmd
       - text: "Join Us"
         href: join.qmd
       - text: "Photography"
         href: photos.qmd
     right:
       - icon: envelope
-        href: mailto:you@your-university.edu
+        href: mailto:misbath.d@berkeley.edu
       - icon: github
         href: https://github.com/reinelab
   page-footer:
