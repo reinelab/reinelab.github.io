@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e369b62134b40500628604a8ea8ab76c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ca7dd3fb1b5d4f7d49d6e2bb23f4743f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,17 +151,36 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="reine-lab" class="level1">
 <h1>REINE Lab</h1>
-<section id="resilience-energy-and-inequity-in-neighborhood-environments" class="level3">
-<h3 class="anchored" data-anchor-id="resilience-energy-and-inequity-in-neighborhood-environments">Resilience, Energy, and Inequity in Neighborhood Environments</h3>
+<p class="reine-meaning" id="reine-meaning">
+Resilience, Energy, and Inequity in Neighborhood Environments
+</p>
+<script>
+(function() {
+  var el = document.getElementById('reine-meaning');
+  if (!el) return;
+  var messages = [
+    'Resilience, Energy, and Inequity in Neighborhood Environments',
+    '“Reine” is also French for “queen” — and it’s Misbath’s middle name.'
+  ];
+  var i = 0;
+  setInterval(function() {
+    el.style.opacity = 0;
+    setTimeout(function() {
+      i = (i + 1) % messages.length;
+      el.textContent = messages[i];
+      el.style.opacity = 1;
+    }, 400);
+  }, 5000);
+})();
+</script>
 <p>The REINE Lab studies how environmental exposures and adaptation to a changing climate shape health and health equity in the United States and globally. Our research examines the health implications of clean energy transitions, extreme heat, power outages, and other climate-related environmental disruptions, with a focus on populations disproportionately affected by environmental and energy burdens. We combine environmental epidemiology, exposure science, causal inference, data science, and qualitative methods to generate evidence that informs equitable climate, energy, and public health policy.</p>
 <p>We are based in the Division of Environmental Health Sciences at the University of California, Berkeley School of Public Health.</p>
-</section>
 <section id="recent-highlights" class="level3">
 <h3 class="anchored" data-anchor-id="recent-highlights">Recent highlights</h3>
 <ul>
-<li><strong>April 2026</strong> — Misbath Daouda was featured in The Guardian on the shift from gas to induction stoves in New York, discussing findings from her research on how switching from gas to electric cooking cuts indoor nitrogen dioxide exposure. <a href="https://www.theguardian.com/environment/2026/apr/02/new-york-induction-stoves-climate-energy">Read “Why thousands of New Yorkers swap gas for induction stoves in clean energy push”</a></li>
+<li><strong>April 2026</strong> — Misbath Daouda was featured in The Guardian on the shift from gas to induction stoves in New York, discussing findings from her research on how switching from gas to electric cooking cuts indoor nitrogen dioxide exposure. <a href="https://www.theguardian.com/environment/2026/apr/02/new-york-induction-stoves-climate-energy">Read the article</a></li>
+<li><strong>January 2023</strong> — Misbath Daouda spoke with PBS NewsHour about the environmental and health effects of gas stoves. <a href="https://www.pbs.org/newshour/show/a-look-at-the-environmental-and-health-effects-associated-with-gas-stoves">Watch the segment</a></li>
 </ul>
-<p><img src="images/press-feature.png" class="lab-hero-img" alt="Misbath Daouda discussing gas stove research in a press interview"></p>
 
 
 </section>

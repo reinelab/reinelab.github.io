@@ -32,7 +32,7 @@ website:
 
 format:
   html:
-    theme: journal
+    theme: theme.scss
     css: styles.css
     toc: false
     grid:

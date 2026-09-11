@@ -1,0 +1,74 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+// Earthy, notebook-inspired palette
+$parchment:   #EDE6D3;  // page background
+$paper:       #F6F1E4;  // card / "index card" background
+$ink:         #3A3733;  // body text, dark warm gray
+$ink-soft:    #5B564E;  // secondary text
+$clay:        #A15C36;  // links / accent
+$espresso:    #4B3B2E;  // navbar background
+$rule:        #D8CBAE;  // hairlines, borders
+
+$body-bg: $parchment;
+$body-color: $ink;
+$link-color: $clay;
+$link-hover-color: darken($clay, 10%);
+
+$navbar-bg: $espresso;
+$navbar-fg: $paper;
+
+$font-family-sans-serif: "Lora", Georgia, serif;
+$font-family-serif: "Lora", Georgia, serif;
+$headings-font-family: "Lora", Georgia, serif;
+$headings-color: $ink;
+$headings-font-weight: 600;
+
+$border-color: $rule;
+
+/*-- scss:rules --*/
+
+body {
+  font-size: 12pt;
+}
+
+.navbar-title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+hr {
+  border-top: 1px dashed $rule;
+  opacity: 1;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 1px dashed $rule;
+  padding-bottom: 0.3rem;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.reine-meaning {
+  font-style: italic;
+  color: $ink-soft;
+  font-size: 1.1rem;
+  transition: opacity 0.4s ease;
+  margin-top: -0.25rem;
+}
+
+.person-block {
+  background-color: $paper;
+  border: 1px solid $rule;
+  border-left: 3px solid $clay;
+  border-radius: 3px;
+  padding: 1.25rem 1.5rem;
+}
