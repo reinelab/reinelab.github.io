@@ -6,35 +6,51 @@ title: ""
 
 Fieldwork and travel, through the lens.
 
-#### Yosemite National Park, 2022
-<img src="images/photography/yosemite-reflection.jpeg" style="width:65%"/>
+<div class="photo-grid">
 
-#### Tanzania, 2021
-<img src="images/photography/lion.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/yosemite-reflection.jpeg" alt="Yosemite National Park, 2022"/>
+<figcaption>Yosemite National Park, 2022</figcaption>
+</figure>
 
-#### Tanzania, 2021
-<img src="images/photography/leopard-stretch.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/lion.JPG" alt="Tanzania, 2021"/>
+<figcaption>Tanzania, 2021</figcaption>
+</figure>
 
-#### New York City, 2021
-<img src="images/photography/one-summit.jpeg" style="width:65%"/>
+<figure>
+<img src="images/photography/leopard-stretch.JPG" alt="Tanzania, 2021"/>
+<figcaption>Tanzania, 2021</figcaption>
+</figure>
 
-#### Paris, 2021
-<img src="images/photography/eiffel-tower-reflection.jpeg" style="width:65%"/>
+<figure>
+<img src="images/photography/one-summit.jpeg" alt="New York City, 2021"/>
+<figcaption>New York City, 2021</figcaption>
+</figure>
 
-#### Madagascar, 2019
-<img src="images/photography/mada_road.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/eiffel-tower-reflection.jpeg" alt="Paris, 2021"/>
+<figcaption>Paris, 2021</figcaption>
+</figure>
 
-#### Madagascar, 2019
-<img src="images/photography/me-with-lemur.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/mada_road.JPG" alt="Madagascar, 2019"/>
+<figcaption>Madagascar, 2019</figcaption>
+</figure>
 
-#### Alaska, 2018
-<img src="images/photography/alaska-glacier.jpeg" style="width:65%"/>
+<figure>
+<img src="images/photography/alaska-pano.JPG" alt="Alaska, 2018"/>
+<figcaption>Alaska, 2018</figcaption>
+</figure>
 
-#### Alaska, 2018
-<img src="images/photography/alaska-pano.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/butterfly-nh.JPG" alt="[Location, year]"/>
+<figcaption>[Location, year]</figcaption>
+</figure>
 
-#### [Location, year]
-<img src="images/photography/butterfly-nh.JPG" style="width:65%"/>
+<figure>
+<img src="images/photography/lake.jpg" alt="[Location, year]"/>
+<figcaption>[Location, year]</figcaption>
+</figure>
 
-#### [Location, year]
-<img src="images/photography/lake.jpg" style="width:65%"/>
+</div>

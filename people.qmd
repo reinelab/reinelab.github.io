@@ -29,15 +29,6 @@ Chai is a postdoctoral researcher focusing on how buildings, mechanical systems,
 :::
 
 ::: {.person-block}
-<img src="images/lab-members/jacqueline-holstein.jpeg" class="headshot" alt="Jacqueline Holstein"/>
-
-### Jacqueline (Jackie) Holstein
-Doctoral Student, Environmental Health Sciences
-
-Jackie is an Environmental Health Sciences doctoral student who started working in the REINE Lab in 2025 following a decade-long career in clinical research development and management. Her research focuses on energy transitions, large-scale power outages, and their impact on perinatal and infant health. Using environmental epidemiology and quasi-experimental methods, she aims to highlight energy insecurity disparities and drive equitable energy policy change. Jackie completed her MPH in Global Epidemiology with a certificate in maternal and child health at the Rollins School of Public Health, Emory University. Outside of work, Jackie enjoys backpacking, inventing new cake recipes, and quilting.
-:::
-
-::: {.person-block}
 <img src="images/lab-members/anna-devereaux.jpeg" class="headshot" alt="Anna Devereaux"/>
 
 ### Anna Devereaux
@@ -62,6 +53,15 @@ Siviwe received her B.A. in Environmental Studies and Psychology from St. Olaf U
 Undergraduate Research Assistant, Integrative Biology
 
 Medha is a second-year undergraduate student majoring in Integrative Biology and minoring in Disability Studies. She is interested in identifying how environmental exposures such as heat stress can affect health outcomes in underserved communities. She joined the REINE Lab in 2026, working on the "New Moms" project, where she analyzed interviews to understand heat exposure, household energy needs, and the experience of pregnant individuals in these households. In her free time, Medha enjoys working out, practicing yoga, crocheting, cooking, and making different types of matcha.
+:::
+
+::: {.person-block}
+<img src="images/lab-members/jacqueline-holstein.jpeg" class="headshot" alt="Jacqueline Holstein"/>
+
+### Jacqueline (Jackie) Holstein
+Doctoral Student, Environmental Health Sciences
+
+Jackie is an Environmental Health Sciences doctoral student who started working in the REINE Lab in 2025 following a decade-long career in clinical research development and management. Her research focuses on energy transitions, large-scale power outages, and their impact on perinatal and infant health. Using environmental epidemiology and quasi-experimental methods, she aims to highlight energy insecurity disparities and drive equitable energy policy change. Jackie completed her MPH in Global Epidemiology with a certificate in maternal and child health at the Rollins School of Public Health, Emory University. Outside of work, Jackie enjoys backpacking, inventing new cake recipes, and quilting.
 :::
 
 ::: {.person-block}
