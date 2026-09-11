@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "REINE Lab"
+  description: "[ONE-LINE LAB TAGLINE — e.g. 'Research on Equity, Inequality, and the Environment']"
+  navbar:
+    title: "REINE Lab"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Join Us"
+        href: join.qmd
+    right:
+      - icon: envelope
+        href: mailto:you@your-university.edu
+      - icon: github
+        href: https://github.com/reinelab
+  page-footer:
+    center: "© {{< now year >}} REINE Lab"
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 900px

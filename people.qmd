@@ -1,0 +1,33 @@
+---
+title: ""
+---
+
+# People
+
+## Principal Investigator
+
+::: {.person-block}
+<img src="images/misbath.jpg" class="headshot" alt="Misbath Daouda"/>
+
+### Misbath Daouda, PhD
+[TITLE — e.g. Assistant Professor of Environmental Health Sciences]
+
+[Short bio — 2-3 sentences on background and research focus.]
+
+[CV](files/cv.pdf) · [Google Scholar](https://scholar.google.com/citations?user=Il6VafQAAAAJ&hl=en) · [LinkedIn](https://linkedin.com/in/misbath-daouda-007089103)
+:::
+
+## Lab Members
+
+::: {.person-block}
+<img src="images/placeholder.jpg" class="headshot" alt="Team member"/>
+
+### [Name], [Role — e.g. Postdoctoral Fellow / PhD Student / Research Assistant]
+[One-line bio or research interest.]
+:::
+
+<!-- Duplicate the block above for each additional lab member -->
+
+## Alumni
+
+- [Name] ([Role], [Years]) — now at [Current Position]

@@ -1,0 +1,18 @@
+---
+title: ""
+---
+
+# REINE Lab
+
+[LAB MISSION STATEMENT — 2-4 sentences. Draft based on your research focus:]
+
+The REINE Lab studies the distribution of health benefits and burdens from energy transitions in the context of climate change, in both the US and the Global South. Using environmental epidemiology, exposure modeling, machine learning, and qualitative methods, we generate community-driven evidence to support equity in energy transition policy.
+
+We are based in the [Department Name] at [University Name].
+
+### Recent highlights
+
+- [Add a news item, e.g. "September 2026 — paper accepted at ..."]
+- [Add another]
+
+<img src="images/lab-hero.jpg" class="lab-hero-img" alt="REINE Lab"/>

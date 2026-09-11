@@ -1,0 +1,30 @@
+---
+title: ""
+---
+
+# Research
+
+[Draft based on your prior research themes — edit freely.]
+
+### Equity in energy transitions
+
+Globally, nearly 3 billion people cook with traditional stoves and solid fuels, resulting in exposure to household air pollution — the largest energy-related health risk. Our lab studies who benefits from clean energy transitions (e.g., charcoal-to-gas, gas-to-induction) and who is left behind, with attention to gender and intra-household dynamics.
+
+<img src="images/research-1.jpg" style="width:55%" alt=""/>
+
+### Climate, energy, and health disparities in the US
+
+We examine whether shifts away from fossil fuels (e.g., coal-fired power plant retirements) have reduced or reinforced racial/ethnic disparities in health outcomes such as preterm birth.
+
+### Exposure modeling methods
+
+We develop and evaluate methods for estimating personal and long-term exposure to air pollution in settings where ambient monitoring is sparse or a poor proxy for household exposure, including machine learning approaches to non-linear exposure-disparity relationships.
+
+### Current projects
+
+- [Project name] — [one-line description, funder if applicable]
+- [Project name] — [one-line description, funder if applicable]
+
+### Funding
+
+[List current grants/funders, e.g. NIH, NSF, foundation names]
