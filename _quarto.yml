@@ -25,7 +25,7 @@ website:
       - icon: github
         href: https://github.com/reinelab
   page-footer:
-    center: "© {{< now year >}} REINE Lab"
+    center: "© 2026 REINE Lab"
 
 format:
   html:
