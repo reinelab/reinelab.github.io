@@ -4,27 +4,32 @@ title: ""
 
 # Research
 
-[Draft based on your prior research themes — edit freely.]
+### Climate and environmental solutions
 
-### Equity in energy transitions
+We evaluate interventions and policies intended to address environmental and climate-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States.
 
-Globally, nearly 3 billion people cook with traditional stoves and solid fuels, resulting in exposure to household air pollution — the largest energy-related health risk. Our lab studies who benefits from clean energy transitions (e.g., charcoal-to-gas, gas-to-induction) and who is left behind, with attention to gender and intra-household dynamics.
+Our studies assess outcomes beyond changes in average pollution levels, including health, personal exposure, thermal conditions, energy insecurity, time and labor, and quality of life. We are particularly interested in how benefits are distributed within and across households and communities. This work includes randomized and natural experiments, mixed-methods evaluations, and policy-relevant evidence generation in partnership with communities and government agencies.
 
-<img src="images/research-1.jpg" style="width:55%" alt=""/>
 
-### Climate, energy, and health disparities in the US
+### Climate-related exposures, infrastructure, and health
 
-We examine whether shifts away from fossil fuels (e.g., coal-fired power plant retirements) have reduced or reinforced racial/ethnic disparities in health outcomes such as preterm birth.
+We study how climate change interacts with the infrastructure and environmental conditions that people depend on to stay healthy. One focus is energy-system vulnerability, including the health consequences of power outages and whether these impacts amplify extreme weather risks or are concentrated among populations already facing environmental and social disadvantage.
 
-### Exposure modeling methods
+Our broader climate-health work examines extreme heat, air pollution, and their effects on maternal and child health. We are also building environmental monitoring capacity in West Africa to better characterize heat and air pollution in places where regulatory monitoring remains limited. Current work includes a partnership in Benin establishing the country's first ground-based air pollution and heat monitoring network.
 
-We develop and evaluate methods for estimating personal and long-term exposure to air pollution in settings where ambient monitoring is sparse or a poor proxy for household exposure, including machine learning approaches to non-linear exposure-disparity relationships.
+### Methods for measuring environmental inequities
+
+A complementary area of our research examines how environmental inequities are measured, quantified, and translated into policy. We study the methodological choices that shape conclusions about disparities and environmental justice, particularly when complex social and environmental processes are at play.
+
+Our work has shown how assumptions about the functional form of exposure-disparity relationships can alter estimates of racial and ethnic inequality, reviewed the methods used across public health environmental justice research, and examined what is gained and lost when multidimensional concepts of environmental justice are encoded in screening tools used to target resources and policy. 
 
 ### Current projects
 
-- [Project name] — [one-line description, funder if applicable]
-- [Project name] — [one-line description, funder if applicable]
+- Power Outages and Preterm Birth in the United States — Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
+- Cooking Electrification and Children's Asthma — Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
+- Benin Initiative for Clean Air Solutions — Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
+
 
 ### Funding
 
-[List current grants/funders, e.g. NIH, NSF, foundation names]
+Our work is funded by the California Air Resources Board, the California Energy Commission, and the EPIC Air Quality Fund among others. 
