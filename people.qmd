@@ -7,12 +7,12 @@ title: ""
 ## Principal Investigator
 
 ::: {.person-block}
-<img src="images/lab-members/misbath-daouda.jpg" class="headshot" alt="Misbath Daouda"/>
+<img src="images/lab-members/misbath-daouda.jpg" class="headshot" alt="Misbath Reine Daouda"/>
 
-### Misbath Daouda, PhD
+### Misbath Reine Daouda, PhD
 Assistant Professor of Environmental Health Sciences
 
-Misbath Daouda is an Assistant Professor of Environmental Health Sciences whose interdisciplinary research focuses on the health equity implications of climate adaptation strategies in the US and in West Africa. She is passionate about interventions and ensuring that their benefits reach those who need it the most. She obtained her MPH from Harvard T.H. Chan School of Public Health and her PhD in Environmental Health Sciences from Columbia Mailman School of Public Health. She enjoys sashiko, hiking, traveling, and being a mom.
+Misbath Reine Daouda is an Assistant Professor of Environmental Health Sciences whose interdisciplinary research focuses on the health equity implications of climate adaptation strategies in the US and in West Africa. She is passionate about interventions and ensuring that their benefits reach those who need it the most. She obtained her MPH from Harvard T.H. Chan School of Public Health and her PhD in Environmental Health Sciences from Columbia Mailman School of Public Health. She enjoys sashiko, hiking, traveling, and being a mom.
 
 [Google Scholar](https://scholar.google.com/citations?user=-NQvKekAAAAJ&hl=en) · [LinkedIn](https://linkedin.com/in/misbath-daouda-007089103)
 :::
