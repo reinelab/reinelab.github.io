@@ -7,12 +7,12 @@ title: ""
 ## Principal Investigator
 
 ::: {.person-block}
-<img src="images/misbath.jpg" class="headshot" alt="Misbath Daouda"/>
+<img src="images/lab-members/misbath-daouda.jpg" class="headshot" alt="Misbath Daouda"/>
 
 ### Misbath Daouda, PhD
-[CONFIRM TITLE/DEPT — e.g. Assistant Professor, Environmental Health Sciences, UC Berkeley School of Public Health]
+Assistant Professor of Environmental Health Sciences
 
-[Short bio — 2-3 sentences on background and research focus.]
+Misbath Daouda is an Assistant Professor of Environmental Health Sciences whose interdisciplinary research focuses on the health equity implications of climate adaptation strategies in the US and in West Africa.
 
 [CV](files/cv.pdf) · [Google Scholar](https://scholar.google.com/citations?user=Il6VafQAAAAJ&hl=en) · [LinkedIn](https://linkedin.com/in/misbath-daouda-007089103)
 :::
