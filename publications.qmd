@@ -4,18 +4,14 @@ title: ""
 
 # Publications
 
-For the full and most current list, see [Google Scholar](https://scholar.google.com/citations?user=Il6VafQAAAAJ&hl=en).
+For the full and most current list, see [Google Scholar](https://scholar.google.com/citations?user=-NQvKekAAAAJ&hl=en).
 
-## [Current Year]
+### Selected publications
 
-- [Author list]. [Title]. *[Journal]*. [Year]. [[link]]()
+- Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010." *Nature Communications* 15, 268 (2024). [Link](https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010)
 
-## [Previous Year]
+- Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in public health environmental justice research: a scoping review from 2018 to 2021." *Current Environmental Health Reports* 10(3), 312–336 (2023). [Link](https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021)
 
-- [Author list]. [Title]. *[Journal]*. [Year]. [[link]]()
+- Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al. "Association between county-level coal-fired power plant pollution and racial disparities in preterm births from 2000 to 2018." *Environmental Research Letters* 16(3), 034055 (2021). [Link](https://scholar.google.com/scholar?q=Association+between+county-level+coal-fired+power+plant+pollution+and+racial+disparities+in+preterm+births)
 
-<!--
-Tip: once you have a .bib file of publications, Quarto can render this
-list automatically — see https://quarto.org/docs/authoring/citations.html
-or ask me to wire it up.
--->
+- Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al. "Out of gas, in with justice: findings from a gas-to-induction pilot in low-income housing in NYC." *Energy Research & Social Science* 116, 103662 (2024). [Link](https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC)
