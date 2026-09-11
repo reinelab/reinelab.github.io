@@ -18,8 +18,6 @@ website:
         href: research.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Join Us"
-        href: join.qmd
       - text: "Photography"
         href: photos.qmd
     right:

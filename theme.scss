@@ -2,22 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 
-// Earthy, notebook-inspired palette
-$parchment:   #EDE6D3;  // page background
-$paper:       #F6F1E4;  // card / "index card" background
-$ink:         #3A3733;  // body text, dark warm gray
-$ink-soft:    #5B564E;  // secondary text
-$clay:        #A15C36;  // links / accent
+// Simple notebook palette — white page, dark gray ink, no bright accents
+$paper:       #ffffff;  // page background
+$card:        #F7F7F5;  // subtle card background
+$ink:         #333333;  // body text, headings, links — dark gray
+$ink-soft:    #666666;  // secondary/muted text
 $espresso:    #4B3B2E;  // navbar background
-$rule:        #D8CBAE;  // hairlines, borders
+$rule:        #DDDDDD;  // hairlines, borders
 
-$body-bg: $parchment;
+$body-bg: $paper;
 $body-color: $ink;
-$link-color: $clay;
-$link-hover-color: darken($clay, 10%);
+$link-color: $ink;
+$link-hover-color: black;
 
 $navbar-bg: $espresso;
-$navbar-fg: $paper;
+$navbar-fg: #ffffff;
 
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
@@ -53,8 +52,14 @@ h2 {
 }
 
 a {
+  color: $ink;
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
+}
+
+a:hover {
+  color: black;
 }
 
 .reine-meaning {
@@ -66,9 +71,9 @@ a {
 }
 
 .person-block {
-  background-color: $paper;
+  background-color: $card;
   border: 1px solid $rule;
-  border-left: 3px solid $clay;
+  border-left: 3px solid $ink-soft;
   border-radius: 3px;
   padding: 1.25rem 1.5rem;
 }
