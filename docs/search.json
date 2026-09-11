@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photography",
+    "section": "",
+    "text": "Photography\nFieldwork and travel, through the lens.\n\nYosemite National Park, 2022\n\n\n\nTanzania, 2021\n\n\n\nTanzania, 2021\n\n\n\nNew York City, 2021\n\n\n\nParis, 2021\n\n\n\nMadagascar, 2019\n\n\n\nMadagascar, 2019\n\n\n\nAlaska, 2018\n\n\n\nAlaska, 2018\n\n\n\n[Location, year]\n\n\n\n[Location, year]"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For the full and most current list, see Google Scholar.\n\n\n\n[Author list]. [Title]. [Journal]. [Year]. [link]\n\n\n\n\n\n[Author list]. [Title]. [Journal]. [Year]. [link]"
+  },
+  {
+    "objectID": "publications.html#current-year",
+    "href": "publications.html#current-year",
+    "title": "Publications",
+    "section": "",
+    "text": "[Author list]. [Title]. [Journal]. [Year]. [link]"
+  },
+  {
+    "objectID": "publications.html#previous-year",
+    "href": "publications.html#previous-year",
+    "title": "Publications",
+    "section": "",
+    "text": "[Author list]. [Title]. [Journal]. [Year]. [link]"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "News\n\n[Month Year]\n[Headline — e.g. “Our paper on X was published in Y.”]\n\n\n[Month Year]\n[Headline]"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research\n\nClimate and environmental solutions\nWe evaluate interventions and policies intended to address environmental and climate-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States.\nOur studies assess outcomes beyond changes in average pollution levels, including health, personal exposure, thermal conditions, energy insecurity, time and labor, and quality of life. We are particularly interested in how benefits are distributed within and across households and communities. This work includes randomized and natural experiments, mixed-methods evaluations, and policy-relevant evidence generation in partnership with communities and government agencies.\n\n\nClimate-related exposures, infrastructure, and health\nWe study how climate change interacts with the infrastructure and environmental conditions that people depend on to stay healthy. One focus is energy-system vulnerability, including the health consequences of power outages and whether these impacts amplify extreme weather risks or are concentrated among populations already facing environmental and social disadvantage.\nOur broader climate-health work examines extreme heat, air pollution, and their effects on maternal and child health. We are also building environmental monitoring capacity in West Africa to better characterize heat and air pollution in places where regulatory monitoring remains limited. Current work includes a partnership in Benin establishing the country’s first ground-based air pollution and heat monitoring network.\n\n\nMethods for measuring environmental inequities\nA complementary area of our research examines how environmental inequities are measured, quantified, and translated into policy. We study the methodological choices that shape conclusions about disparities and environmental justice, particularly when complex social and environmental processes are at play.\nOur work has shown how assumptions about the functional form of exposure-disparity relationships can alter estimates of racial and ethnic inequality, reviewed the methods used across public health environmental justice research, and examined what is gained and lost when multidimensional concepts of environmental justice are encoded in screening tools used to target resources and policy.\n\n\nCurrent projects\n\nPower Outages and Preterm Birth in the United States — Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.\nCooking Electrification and Children’s Asthma — Evaluating cooking electrification and ventilation improvements in households with children with asthma in California’s San Joaquin Valley.\nBenin Initiative for Clean Air Solutions — Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.\n\n\n\nFunding\nOur work is funded by the California Air Resources Board, the California Energy Commission, and the EPIC Air Quality Fund among others."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "Join Us\n[Describe what you’re looking for — e.g. rotating PhD students, postdocs, RAs — and how to apply.]\n\nProspective PhD students\n[Guidance — e.g. apply through the [Department Name] PhD program and mention your interest in the lab in your statement.]\n\n\nPostdoctoral researchers\n[Guidance — funding status, how to inquire.]\n\n\nUndergraduate / Master’s research assistants\n[Guidance.]\nFor all inquiries, email you@your-university.edu with your CV and a short note on your interests."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "REINE Lab",
+    "section": "",
+    "text": "REINE Lab\n\nResilience, Energy, and Inequity in Neighborhood Environments\nThe REINE Lab studies how environmental exposures and adaptation to a changing climate shape health and health equity in the United States and globally. Our research examines the health implications of clean energy transitions, extreme heat, power outages, and other climate-related environmental disruptions, with a focus on populations disproportionately affected by environmental and energy burdens. We combine environmental epidemiology, exposure science, causal inference, data science, and qualitative methods to generate evidence that informs equitable climate, energy, and public health policy.\nWe are based in the Division of Environmental Health Sciences at the University of California, Berkeley School of Public Health.\n\n\nRecent highlights\n\nApril 2026 — Misbath Daouda was featured in The Guardian on the shift from gas to induction stoves in New York, discussing findings from her research on how switching from gas to electric cooking cuts indoor nitrogen dioxide exposure. Read “Why thousands of New Yorkers swap gas for induction stoves in clean energy push”"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Assistant Professor of Environmental Health Sciences\nMisbath Daouda is an Assistant Professor of Environmental Health Sciences whose interdisciplinary research focuses on the health equity implications of climate adaptation strategies in the US and in West Africa.\nCV · Google Scholar · LinkedIn\n\n\n\n\n\n\n\n\n\nPostdoctoral Researcher\nChai is a postdoctoral researcher focusing on how buildings, mechanical systems, and human activities influence the properties of indoor air and affect human health. She began working with Prof. Daouda in September 2026 on the “Cooking and Clean Air in Homes” study, measuring air pollutant concentrations and exposures resulting from cooking with gas, conventional electric, and induction burners in apartments and homes in disadvantaged or low-income communities. Chai received her PhD in Architecture from the BSTS program at UC Berkeley in 2026. She conducted her PhD research at Lawrence Berkeley National Laboratory, focusing on air mixing and pollutant dispersion in indoor environments relevant to airborne transmission and control. Outside of work, Chai enjoys hot yoga and taking walks with her dog, Bella.\n\n\n\n\n\n\nDoctoral Student, Environmental Health Sciences\nJackie is an Environmental Health Sciences doctoral student who started working in the REINE Lab in 2025 following a decade-long career in clinical research development and management. Her research focuses on energy transitions, large-scale power outages, and their impact on perinatal and infant health. Using environmental epidemiology and quasi-experimental methods, she aims to highlight energy insecurity disparities and drive equitable energy policy change. Jackie completed her MPH in Global Epidemiology with a certificate in maternal and child health at the Rollins School of Public Health, Emory University. Outside of work, Jackie enjoys backpacking, inventing new cake recipes, and quilting.\n\n\n\n\n\n\nMPH Candidate, Health Policy and Management\nAnna is a second-year MPH candidate in the Health Policy and Management program. She is interested in learning how healthcare systems can be better equipped to address heat stress and environmental health disparities in low-income communities using environmental screening diagnostics and physician curriculum reform. She joined the REINE Lab in 2026 and works on the “New Moms” project, evaluating how participants experience heat and household energy needs during pregnancy, and identifying concerns related to energy challenges, adaptive strategies, and perceived solutions. In her free time, she enjoys creative writing, hiking, and camping, and is excited to explore more backpacking trails in Northern California this year.\n\n\n\n\n\n\nMaster’s Student, Development Practice (Goldman School of Public Policy)\nSiviwe received her B.A. in Environmental Studies and Psychology from St. Olaf University. She is a second-year student in the Master of Development Practice program at the Goldman School of Public Policy at UC Berkeley. Her research interests span climate adaptation and building household resilience to the impacts of climate change. She started working with Professor Daouda in 2026 on a project analyzing the drivers of the distribution of incentivized heat pump installations across California through the TECH Clean incentive programs. She enjoys going on hikes in her free time — and dislikes donuts.\n\n\n\n\n\n\nUndergraduate Research Assistant, Integrative Biology\nMedha is a second-year undergraduate student majoring in Integrative Biology and minoring in Disability Studies. She is interested in identifying how environmental exposures such as heat stress can affect health outcomes in underserved communities. She joined the REINE Lab in 2026, working on the “New Moms” project, where she analyzed interviews to understand heat exposure, household energy needs, and the experience of pregnant individuals in these households. In her free time, Medha enjoys working out, practicing yoga, crocheting, cooking, and making different types of matcha.\n\n\n\n\n\n\nUndergraduate Research Assistant, Applied Mathematics\nAlan is an undergraduate student at UC Berkeley majoring in Applied Mathematics with a minor in Statistics. He is interested in integrating mathematical and statistical methods into the field of public health. Alan joined the REINE Lab in 2026 and is currently working to leverage satellite climate data to examine the relationship between heat exposure and birth outcomes in the HAPIN trial. Outside of lab, Alan enjoys rock climbing and playing table tennis.\n\n\n\n\n\n\n[Name] ([Role], [Years]) — now at [Current Position]"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Assistant Professor of Environmental Health Sciences\nMisbath Daouda is an Assistant Professor of Environmental Health Sciences whose interdisciplinary research focuses on the health equity implications of climate adaptation strategies in the US and in West Africa.\nCV · Google Scholar · LinkedIn"
+  },
+  {
+    "objectID": "people.html#lab-members",
+    "href": "people.html#lab-members",
+    "title": "People",
+    "section": "",
+    "text": "Postdoctoral Researcher\nChai is a postdoctoral researcher focusing on how buildings, mechanical systems, and human activities influence the properties of indoor air and affect human health. She began working with Prof. Daouda in September 2026 on the “Cooking and Clean Air in Homes” study, measuring air pollutant concentrations and exposures resulting from cooking with gas, conventional electric, and induction burners in apartments and homes in disadvantaged or low-income communities. Chai received her PhD in Architecture from the BSTS program at UC Berkeley in 2026. She conducted her PhD research at Lawrence Berkeley National Laboratory, focusing on air mixing and pollutant dispersion in indoor environments relevant to airborne transmission and control. Outside of work, Chai enjoys hot yoga and taking walks with her dog, Bella.\n\n\n\n\n\n\nDoctoral Student, Environmental Health Sciences\nJackie is an Environmental Health Sciences doctoral student who started working in the REINE Lab in 2025 following a decade-long career in clinical research development and management. Her research focuses on energy transitions, large-scale power outages, and their impact on perinatal and infant health. Using environmental epidemiology and quasi-experimental methods, she aims to highlight energy insecurity disparities and drive equitable energy policy change. Jackie completed her MPH in Global Epidemiology with a certificate in maternal and child health at the Rollins School of Public Health, Emory University. Outside of work, Jackie enjoys backpacking, inventing new cake recipes, and quilting.\n\n\n\n\n\n\nMPH Candidate, Health Policy and Management\nAnna is a second-year MPH candidate in the Health Policy and Management program. She is interested in learning how healthcare systems can be better equipped to address heat stress and environmental health disparities in low-income communities using environmental screening diagnostics and physician curriculum reform. She joined the REINE Lab in 2026 and works on the “New Moms” project, evaluating how participants experience heat and household energy needs during pregnancy, and identifying concerns related to energy challenges, adaptive strategies, and perceived solutions. In her free time, she enjoys creative writing, hiking, and camping, and is excited to explore more backpacking trails in Northern California this year.\n\n\n\n\n\n\nMaster’s Student, Development Practice (Goldman School of Public Policy)\nSiviwe received her B.A. in Environmental Studies and Psychology from St. Olaf University. She is a second-year student in the Master of Development Practice program at the Goldman School of Public Policy at UC Berkeley. Her research interests span climate adaptation and building household resilience to the impacts of climate change. She started working with Professor Daouda in 2026 on a project analyzing the drivers of the distribution of incentivized heat pump installations across California through the TECH Clean incentive programs. She enjoys going on hikes in her free time — and dislikes donuts.\n\n\n\n\n\n\nUndergraduate Research Assistant, Integrative Biology\nMedha is a second-year undergraduate student majoring in Integrative Biology and minoring in Disability Studies. She is interested in identifying how environmental exposures such as heat stress can affect health outcomes in underserved communities. She joined the REINE Lab in 2026, working on the “New Moms” project, where she analyzed interviews to understand heat exposure, household energy needs, and the experience of pregnant individuals in these households. In her free time, Medha enjoys working out, practicing yoga, crocheting, cooking, and making different types of matcha.\n\n\n\n\n\n\nUndergraduate Research Assistant, Applied Mathematics\nAlan is an undergraduate student at UC Berkeley majoring in Applied Mathematics with a minor in Statistics. He is interested in integrating mathematical and statistical methods into the field of public health. Alan joined the REINE Lab in 2026 and is currently working to leverage satellite climate data to examine the relationship between heat exposure and birth outcomes in the HAPIN trial. Outside of lab, Alan enjoys rock climbing and playing table tennis."
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "",
+    "text": "[Name] ([Role], [Years]) — now at [Current Position]"
+  }
+]
