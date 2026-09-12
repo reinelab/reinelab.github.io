@@ -7,17 +7,17 @@ title: ""
 <div class="card-grid">
 
 <div class="research-card">
-### Climate & Environmental Solutions
+### Energy Transitions & Equity
 Interventions and policies addressing climate-related health risks, from clean cooking in West Africa to building electrification in the US, evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
 </div>
 
 <div class="research-card">
-### Climate, Infrastructure & Health
+### Climate, Infrastructure, and Health
 How climate change strains the infrastructure people depend on, including power outages, extreme heat, and air pollution, and who bears the health consequences. Current work includes a new air pollution and heat monitoring network in Benin.
 </div>
 
 <div class="research-card">
-### Measuring Environmental Inequities
+### Environmental Justice Methods
 How the methods used to quantify environmental disparities shape what gets seen, and what gets left out of policy.
 </div>
 

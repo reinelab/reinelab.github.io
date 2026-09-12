@@ -34,9 +34,9 @@ title: ""
 
 ### What we study
 
-- Climate & Environmental Solutions
-- Climate, Infrastructure & Health
-- Measuring Environmental Inequities
+- Energy Transitions & Equity
+- Climate, Infrastructure, and Health
+- Environmental Justice Methods
 
 [Explore our research →](research.qmd)
 
