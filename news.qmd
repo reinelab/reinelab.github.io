@@ -1,0 +1,21 @@
+---
+title: ""
+---
+
+# News
+
+<div class="news-item">
+<span class="news-date">April 2026</span>
+
+**Misbath Daouda featured in The Guardian on the gas-to-induction shift in New York**
+
+Discussing findings from her research on how switching from gas to electric cooking cuts indoor nitrogen dioxide exposure, as New York, California, and other states expand rebate programs for induction stoves. [Read the article](https://www.theguardian.com/environment/2026/apr/02/new-york-induction-stoves-climate-energy)
+</div>
+
+<div class="news-item">
+<span class="news-date">January 2023</span>
+
+**Misbath Daouda on PBS NewsHour: the environmental and health effects of gas stoves**
+
+A conversation on how combustion byproducts from gas stoves affect indoor air quality and respiratory health, and what the research shows about switching to electric and induction alternatives. [Watch the segment](https://www.pbs.org/newshour/show/a-look-at-the-environmental-and-health-effects-associated-with-gas-stoves)
+</div>

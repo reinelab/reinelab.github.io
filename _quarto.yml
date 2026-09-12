@@ -12,12 +12,14 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "People"
-        href: people.qmd
       - text: "Research"
         href: research.qmd
       - text: "Publications"
         href: publications.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "People"
+        href: people.qmd
       - text: "Photography"
         href: photos.qmd
     right:
@@ -34,4 +36,4 @@ format:
     css: styles.css
     toc: false
     grid:
-      body-width: 900px
+      body-width: 1100px

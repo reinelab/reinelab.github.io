@@ -1,39 +1,40 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
 
-// Simple notebook palette — white page, dark gray ink, no bright accents
-$paper:       #ffffff;  // page background
-$card:        #F7F7F5;  // subtle card background
-$ink:         #333333;  // body text, headings, links — dark gray
-$ink-soft:    #666666;  // secondary/muted text
-$navbar-gray: #3A3A3A;  // navbar background
-$rule:        #DDDDDD;  // hairlines, borders
+// Environmental palette
+$navy:    #16263B;  // deep navy — headings, navbar, wordmark
+$cream:   #FBF6EA;  // warm cream — page background
+$orange:  #F2622E;  // electric orange — sparing emphasis only
+$blue:    #3E7CB1;  // climate blue — links, primary accent
+$sage:    #93AC81;  // soft sage — cards, tags, secondary accent
+$sage-tint: #EEF1E6; // very light sage, for card backgrounds
+$rule:    #E2DBC8;  // warm hairline/border color
 
-$body-bg: $paper;
-$body-color: $ink;
-$link-color: $ink;
-$link-hover-color: black;
+$body-bg: $cream;
+$body-color: $navy;
+$link-color: $blue;
+$link-hover-color: $orange;
 
-$navbar-bg: $navbar-gray;
-$navbar-fg: #ffffff;
-
-// Quarto always renders the navbar with data-bs-theme="dark", and
-// Bootstrap's dark-navbar defaults use translucent (not solid) white
-// for nav links — override so the text is fully opaque white.
-$navbar-dark-color: #ffffff;
-$navbar-dark-hover-color: #ffffff;
-$navbar-dark-active-color: #ffffff;
-$navbar-dark-brand-color: #ffffff;
-$navbar-dark-brand-hover-color: #ffffff;
+$navbar-bg: $navy;
+$navbar-fg: $cream;
 
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
-$headings-font-family: "Lora", Georgia, serif;
-$headings-color: $ink;
-$headings-font-weight: 600;
+$headings-font-family: "Space Grotesk", "Lora", Georgia, serif;
+$headings-color: $navy;
+$headings-font-weight: 700;
 
 $border-color: $rule;
+
+// Bootstrap forces a dark navbar attribute regardless of theme;
+// pin its variables directly so hover/active read as intended.
+$navbar-dark-color: $cream;
+$navbar-dark-hover-color: $orange;
+$navbar-dark-active-color: $orange;
+$navbar-dark-brand-color: $cream;
+$navbar-dark-brand-hover-color: $orange;
 
 /*-- scss:rules --*/
 
@@ -42,20 +43,18 @@ body {
 }
 
 .navbar-title {
-  font-weight: 600;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 
-// Belt-and-suspenders: Bootstrap's compiled dark-navbar active/hover
-// colors don't always pick up the Sass variable overrides above, so
-// force the custom properties directly.
 .navbar,
 .navbar[data-bs-theme="dark"] {
-  --bs-navbar-color: #ffffff;
-  --bs-navbar-hover-color: #ffffff;
-  --bs-navbar-active-color: #ffffff;
-  --bs-navbar-brand-color: #ffffff;
-  --bs-navbar-brand-hover-color: #ffffff;
+  --bs-navbar-color: #{$cream};
+  --bs-navbar-hover-color: #{$orange};
+  --bs-navbar-active-color: #{$orange};
+  --bs-navbar-brand-color: #{$cream};
+  --bs-navbar-brand-hover-color: #{$orange};
 }
 
 hr {
@@ -64,7 +63,7 @@ hr {
 }
 
 h1, h2, h3 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 {
@@ -73,7 +72,7 @@ h2 {
 }
 
 a {
-  color: $ink;
+  color: $blue;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -81,24 +80,201 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: $orange;
 }
 
-.reine-meaning {
-  font-style: italic;
-  color: $ink-soft;
-  font-size: 1.1rem;
-  transition: opacity 0.4s ease;
-  margin-top: -0.25rem;
+// ---------- Homepage hero ----------
+
+.hero {
+  position: relative;
+  margin: -1.5rem -1.5rem 2rem -1.5rem;
+  padding: 4rem 1.5rem 3rem 1.5rem;
+  overflow: hidden;
+  background-color: $navy;
+  background-image:
+    linear-gradient(180deg, rgba(22,38,59,0.88), rgba(22,38,59,0.94)),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M64 0H0V64' fill='none' stroke='%2393AC81' stroke-width='1' opacity='0.35'/%3E%3Ccircle cx='0' cy='0' r='2.5' fill='%23F2622E' opacity='0.55'/%3E%3Ccircle cx='32' cy='32' r='1.5' fill='%233E7CB1' opacity='0.5'/%3E%3C/svg%3E");
+  background-size: cover, 64px 64px;
+  text-align: center;
 }
+
+.hero .wordmark {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: clamp(3rem, 9vw, 6rem);
+  letter-spacing: 0.03em;
+  color: $cream;
+  margin: 0 0 0.5rem 0;
+  line-height: 1;
+}
+
+.hero .wordmark .accent {
+  color: $orange;
+}
+
+.hero .reine-meaning {
+  color: rgba(251, 246, 234, 0.85);
+  font-size: 1.2rem;
+}
+
+.hero .hero-tagline {
+  max-width: 640px;
+  margin: 1rem auto 0 auto;
+  color: rgba(251, 246, 234, 0.9);
+  font-size: 1.05rem;
+}
+
+.hero .hero-affiliation {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: rgba(251, 246, 234, 0.65);
+}
+
+.hero .hero-affiliation a {
+  color: rgba(251, 246, 234, 0.85);
+}
+
+// ---------- Cards (shared) ----------
 
 .person-block {
-  background-color: $card;
+  background-color: $sage-tint;
   border: 1px solid $rule;
-  border-left: 3px solid $ink-soft;
+  border-left: 3px solid $sage;
   border-radius: 3px;
   padding: 1.25rem 1.5rem;
+  margin-bottom: 1.75rem;
+  overflow: auto;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.research-card {
+  background-color: #ffffff;
+  border: 1px solid $rule;
+  border-top: 4px solid $sage;
+  border-radius: 4px;
+  padding: 1.5rem;
+}
+
+.research-card.accent-blue { border-top-color: $blue; }
+.research-card.accent-orange { border-top-color: $orange; }
+
+.research-card h3 {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
+
+.research-card p {
+  font-size: 0.95rem;
+  color: lighten($navy, 12%);
+  margin-bottom: 0;
+}
+
+.project-card {
+  background-color: $sage-tint;
+  border-radius: 4px;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid $rule;
+}
+
+.project-card .tag {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+// ---------- Tags / topic badges ----------
+
+.tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 0.3rem;
+}
+
+.tag-air { background-color: $blue; }
+.tag-energy { background-color: $orange; }
+.tag-methods { background-color: $sage; }
+
+// ---------- Publications filter ----------
+
+.pub-filters {
+  margin: 1rem 0 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pub-filter-btn {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #ffffff;
+  border: 1px solid $rule;
+  color: $navy;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.pub-filter-btn:hover {
+  border-color: $blue;
+}
+
+.pub-filter-btn.active {
+  background: $navy;
+  border-color: $navy;
+  color: #ffffff;
+}
+
+.pub-filter-btn.active .count {
+  color: $orange;
+}
+
+.pub-item {
+  background: #ffffff;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.pub-item[hidden] {
+  display: none;
+}
+
+// ---------- News ----------
+
+.news-item {
+  border-bottom: 1px dashed $rule;
+  padding: 1.25rem 0;
+}
+
+.news-item:first-of-type {
+  padding-top: 0;
+}
+
+.news-date {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $orange;
+}
+
+// ---------- Photo grid ----------
 
 .photo-grid {
   display: grid;

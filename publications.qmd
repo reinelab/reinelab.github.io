@@ -6,12 +6,61 @@ title: ""
 
 For the full and most current list, see [Google Scholar](https://scholar.google.com/citations?user=-NQvKekAAAAJ&hl=en).
 
-### Selected publications
+<div class="pub-filters" id="pub-filters">
+<button class="pub-filter-btn active" data-filter="all">All</button>
+<button class="pub-filter-btn" data-filter="air">Air Pollution</button>
+<button class="pub-filter-btn" data-filter="energy">Energy</button>
+<button class="pub-filter-btn" data-filter="methods">Methods</button>
+</div>
 
-- Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010." *Nature Communications* 15, 268 (2024). [Link](https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010)
+<div id="pub-list">
 
-- Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in public health environmental justice research: a scoping review from 2018 to 2021." *Current Environmental Health Reports* 10(3), 312–336 (2023). [Link](https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021)
+<div class="pub-item" data-topics="air methods">
+Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010." *Nature Communications* 15, 268 (2024). [Link](https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010)
+<div><span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span></div>
+</div>
 
-- Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al. "Association between county-level coal-fired power plant pollution and racial disparities in preterm births from 2000 to 2018." *Environmental Research Letters* 16(3), 034055 (2021). [Link](https://scholar.google.com/scholar?q=Association+between+county-level+coal-fired+power+plant+pollution+and+racial+disparities+in+preterm+births)
+<div class="pub-item" data-topics="methods">
+Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in public health environmental justice research: a scoping review from 2018 to 2021." *Current Environmental Health Reports* 10(3), 312–336 (2023). [Link](https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021)
+<div><span class="tag tag-methods">Methods</span></div>
+</div>
 
-- Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al. "Out of gas, in with justice: findings from a gas-to-induction pilot in low-income housing in NYC." *Energy Research & Social Science* 116, 103662 (2024). [Link](https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC)
+<div class="pub-item" data-topics="air energy">
+Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al. "Association between county-level coal-fired power plant pollution and racial disparities in preterm births from 2000 to 2018." *Environmental Research Letters* 16(3), 034055 (2021). [Link](https://scholar.google.com/scholar?q=Association+between+county-level+coal-fired+power+plant+pollution+and+racial+disparities+in+preterm+births)
+<div><span class="tag tag-air">Air Pollution</span><span class="tag tag-energy">Energy</span></div>
+</div>
+
+<div class="pub-item" data-topics="energy">
+Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al. "Out of gas, in with justice: findings from a gas-to-induction pilot in low-income housing in NYC." *Energy Research & Social Science* 116, 103662 (2024). [Link](https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC)
+<div><span class="tag tag-energy">Energy</span></div>
+</div>
+
+<div class="pub-item" data-topics="air methods">
+Daouda M, Henneman L, Goldsmith J, Kioumourtzoglou MA, Casey JA. "Racial/ethnic disparities in nationwide PM2.5 concentrations: perils of assuming a linear relationship." *Environmental Health Perspectives* 130(7), 077701 (2022). [Link](https://scholar.google.com/scholar?q=Racial+ethnic+disparities+in+nationwide+PM2.5+concentrations+perils+of+assuming+a+linear+relationship)
+<div><span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span></div>
+</div>
+
+<div class="pub-item" data-topics="air methods">
+Daouda M, Mujtaba MN, Yang Q, Seyram K, Lee AG, Tawiah T, et al. "Prediction of personal exposure to PM2.5 in mother-child pairs in rural Ghana." *Journal of Exposure Science & Environmental Epidemiology* 32(4), 629–636 (2022). [Link](https://scholar.google.com/scholar?q=Prediction+of+personal+exposure+to+PM2.5+in+mother-child+pairs+in+rural+Ghana)
+<div><span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span></div>
+</div>
+
+</div>
+
+<script>
+(function() {
+  var buttons = document.querySelectorAll('.pub-filter-btn');
+  var items = document.querySelectorAll('.pub-item');
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      buttons.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.getAttribute('data-filter');
+      items.forEach(function(item) {
+        var topics = (item.getAttribute('data-topics') || '').split(' ');
+        item.hidden = !(filter === 'all' || topics.indexOf(filter) !== -1);
+      });
+    });
+  });
+})();
+</script>

@@ -4,32 +4,55 @@ title: ""
 
 # Research
 
-### Climate and environmental solutions
+<div class="card-grid">
 
-We evaluate interventions and policies intended to address environmental and climate-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States.
+<div class="research-card accent-blue">
+### Climate & Environmental Solutions
+Interventions and policies addressing climate-related health risks — from clean cooking in West Africa to building electrification in the US — evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
+</div>
 
-Our studies assess outcomes beyond changes in average pollution levels, including health, personal exposure, thermal conditions, energy insecurity, time and labor, and quality of life. We are particularly interested in how benefits are distributed within and across households and communities. This work includes randomized and natural experiments, mixed-methods evaluations, and policy-relevant evidence generation in partnership with communities and government agencies.
+<div class="research-card accent-orange">
+### Climate, Infrastructure & Health
+How climate change strains the infrastructure people depend on — power outages, extreme heat, air pollution — and who bears the health consequences, including a new air pollution and heat monitoring network in Benin.
+</div>
 
+<div class="research-card">
+### Measuring Environmental Inequities
+How the methods used to quantify environmental disparities shape what gets seen, and what gets left out of policy.
+</div>
 
-### Climate-related exposures, infrastructure, and health
-
-We study how climate change interacts with the infrastructure and environmental conditions that people depend on to stay healthy. One focus is energy-system vulnerability, including the health consequences of power outages and whether these impacts amplify extreme weather risks or are concentrated among populations already facing environmental and social disadvantage.
-
-Our broader climate-health work examines extreme heat, air pollution, and their effects on maternal and child health. We are also building environmental monitoring capacity in West Africa to better characterize heat and air pollution in places where regulatory monitoring remains limited. Current work includes a partnership in Benin establishing the country's first ground-based air pollution and heat monitoring network.
-
-### Methods for measuring environmental inequities
-
-A complementary area of our research examines how environmental inequities are measured, quantified, and translated into policy. We study the methodological choices that shape conclusions about disparities and environmental justice, particularly when complex social and environmental processes are at play.
-
-Our work has shown how assumptions about the functional form of exposure-disparity relationships can alter estimates of racial and ethnic inequality, reviewed the methods used across public health environmental justice research, and examined what is gained and lost when multidimensional concepts of environmental justice are encoded in screening tools used to target resources and policy. 
+</div>
 
 ### Current projects
 
-- Power Outages and Preterm Birth in the United States — Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
-- Cooking Electrification and Children's Asthma — Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
-- Benin Initiative for Clean Air Solutions — Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
+<div class="card-grid">
 
+<div class="project-card">
+**Power Outages and Preterm Birth in the United States**
+
+Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
+
+<div><span class="tag tag-energy">Energy</span><span class="tag tag-air">Air Pollution</span></div>
+</div>
+
+<div class="project-card">
+**Cooking Electrification and Children's Asthma**
+
+Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
+
+<div><span class="tag tag-energy">Energy</span></div>
+</div>
+
+<div class="project-card">
+**Benin Initiative for Clean Air Solutions**
+
+Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
+
+<div><span class="tag tag-air">Air Pollution</span></div>
+</div>
+
+</div>
 
 ### Funding
 
-Our work is funded by the California Air Resources Board, the California Energy Commission, and the EPIC Air Quality Fund among others. 
+Our work is funded by the California Air Resources Board, the California Energy Commission, and the EPIC Air Quality Fund among others.
