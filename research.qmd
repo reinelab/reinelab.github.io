@@ -8,12 +8,12 @@ title: ""
 
 <div class="research-card">
 ### Climate & Environmental Solutions
-Interventions and policies addressing climate-related health risks — from clean cooking in West Africa to building electrification in the US — evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
+Interventions and policies addressing climate-related health risks, from clean cooking in West Africa to building electrification in the US, evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
 </div>
 
 <div class="research-card">
 ### Climate, Infrastructure & Health
-How climate change strains the infrastructure people depend on — power outages, extreme heat, air pollution — and who bears the health consequences, including a new air pollution and heat monitoring network in Benin.
+How climate change strains the infrastructure people depend on, including power outages, extreme heat, and air pollution, and who bears the health consequences. Current work includes a new air pollution and heat monitoring network in Benin.
 </div>
 
 <div class="research-card">

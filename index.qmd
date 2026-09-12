@@ -34,28 +34,13 @@ title: ""
 
 ### What we study
 
-<div class="card-grid">
-
-<div class="research-card">
-### Energy Transitions & Equity
-Who benefits, and who is left behind, when households and communities shift to cleaner energy — from charcoal-to-gas to gas-to-induction.
-</div>
-
-<div class="research-card">
-### Climate, Infrastructure & Health
-Power outages, extreme heat, and the health consequences of climate-strained energy infrastructure.
-</div>
-
-<div class="research-card">
-### Environmental Justice Methods
-Better tools for measuring environmental inequities and translating them into policy.
-</div>
-
-</div>
+- Climate & Environmental Solutions
+- Climate, Infrastructure & Health
+- Measuring Environmental Inequities
 
 [Explore our research →](research.qmd)
 
-### Latest news
+### REINE in the news
 
 <div class="news-item">
 <span class="news-date">April 2026</span><br/>

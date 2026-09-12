@@ -14,12 +14,12 @@ website:
         href: index.qmd
       - text: "Research"
         href: research.qmd
+      - text: "People"
+        href: people.qmd
       - text: "Publications"
         href: publications.qmd
       - text: "News"
         href: news.qmd
-      - text: "People"
-        href: people.qmd
       - text: "Photography"
         href: photos.qmd
     right:
