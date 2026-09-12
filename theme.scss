@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-// Restrained palette: cream + ink, one accent used sparingly
-$cream:   #FBF6EA;  // page background
+// Restrained palette: light sage + ink, one accent used sparingly
+$cream:   #EEF3E6;  // page background — light sage green
 $ink:     #1E2A38;  // body text, headings, borders — deep navy-ink
 $ink-soft: rgba(30, 42, 56, 0.7);
 $orange:  #E85D2F;  // the one accent — emphasis only
-$rule:    #DCD4BE;  // hairline borders
+$rule:    #CFDBC3;  // hairline borders
 
 $body-bg: $cream;
 $body-color: $ink;

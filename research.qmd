@@ -31,24 +31,18 @@ How the methods used to quantify environmental disparities shape what gets seen,
 **Power Outages and Preterm Birth in the United States**
 
 Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
-
-<div><span class="tag">Energy</span><span class="tag">Air Pollution</span></div>
 </div>
 
 <div class="project-card">
 **Cooking Electrification and Children's Asthma**
 
 Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
-
-<div><span class="tag">Energy</span></div>
 </div>
 
 <div class="project-card">
 **Benin Initiative for Clean Air Solutions**
 
 Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
-
-<div><span class="tag">Air Pollution</span></div>
 </div>
 
 </div>
