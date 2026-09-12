@@ -14,8 +14,8 @@ $body-color: $ink;
 $link-color: $ink;
 $link-hover-color: $orange;
 
-$navbar-bg: $ink;
-$navbar-fg: $cream;
+$navbar-bg: $cream;
+$navbar-fg: $ink;
 
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
@@ -25,10 +25,10 @@ $headings-font-weight: 700;
 
 $border-color: $rule;
 
-$navbar-dark-color: $cream;
+$navbar-dark-color: $ink-soft;
 $navbar-dark-hover-color: $orange;
 $navbar-dark-active-color: $orange;
-$navbar-dark-brand-color: $cream;
+$navbar-dark-brand-color: $ink;
 $navbar-dark-brand-hover-color: $orange;
 
 /*-- scss:rules --*/
@@ -44,11 +44,15 @@ body {
 
 .navbar,
 .navbar[data-bs-theme="dark"] {
-  --bs-navbar-color: #{$cream};
+  --bs-navbar-color: #{$ink-soft};
   --bs-navbar-hover-color: #{$orange};
   --bs-navbar-active-color: #{$orange};
-  --bs-navbar-brand-color: #{$cream};
+  --bs-navbar-brand-color: #{$ink};
   --bs-navbar-brand-hover-color: #{$orange};
+}
+
+#quarto-header {
+  border-bottom: 1px solid $rule;
 }
 
 hr {
