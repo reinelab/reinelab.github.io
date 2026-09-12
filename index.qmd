@@ -40,7 +40,7 @@ title: ""
 
 [Explore our research →](research.qmd)
 
-### REINE in the news
+### In the news
 
 <div class="news-item">
 <span class="news-date">April 2026</span><br/>
