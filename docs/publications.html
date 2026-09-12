@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f332b7b96c8ecd60bd095142a5e3c8a1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-df77abeb04b00bbebd7fb72f589143cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,53 +170,66 @@ Methods
 <div class="pub-item" data-topics="air methods">
 Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al.&nbsp;“An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010.” <em>Nature Communications</em> 15, 268 (2024). <a href="https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010">Link</a>
 <div>
-<span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span>
+<span class="tag tag-air" data-filter="air">Air Pollution</span><span class="tag tag-methods" data-filter="methods">Methods</span>
 </div>
 </div>
 <div class="pub-item" data-topics="methods">
 Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al.&nbsp;“Methods in public health environmental justice research: a scoping review from 2018 to 2021.” <em>Current Environmental Health Reports</em> 10(3), 312–336 (2023). <a href="https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021">Link</a>
 <div>
-<span class="tag tag-methods">Methods</span>
+<span class="tag tag-methods" data-filter="methods">Methods</span>
 </div>
 </div>
 <div class="pub-item" data-topics="air energy">
 Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al.&nbsp;“Association between county-level coal-fired power plant pollution and racial disparities in preterm births from 2000 to 2018.” <em>Environmental Research Letters</em> 16(3), 034055 (2021). <a href="https://scholar.google.com/scholar?q=Association+between+county-level+coal-fired+power+plant+pollution+and+racial+disparities+in+preterm+births">Link</a>
 <div>
-<span class="tag tag-air">Air Pollution</span><span class="tag tag-energy">Energy</span>
+<span class="tag tag-air" data-filter="air">Air Pollution</span><span class="tag tag-energy" data-filter="energy">Energy</span>
 </div>
 </div>
 <div class="pub-item" data-topics="energy">
 Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al.&nbsp;“Out of gas, in with justice: findings from a gas-to-induction pilot in low-income housing in NYC.” <em>Energy Research &amp; Social Science</em> 116, 103662 (2024). <a href="https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC">Link</a>
 <div>
-<span class="tag tag-energy">Energy</span>
+<span class="tag tag-energy" data-filter="energy">Energy</span>
 </div>
 </div>
 <div class="pub-item" data-topics="air methods">
 Daouda M, Henneman L, Goldsmith J, Kioumourtzoglou MA, Casey JA. “Racial/ethnic disparities in nationwide PM2.5 concentrations: perils of assuming a linear relationship.” <em>Environmental Health Perspectives</em> 130(7), 077701 (2022). <a href="https://scholar.google.com/scholar?q=Racial+ethnic+disparities+in+nationwide+PM2.5+concentrations+perils+of+assuming+a+linear+relationship">Link</a>
 <div>
-<span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span>
+<span class="tag tag-air" data-filter="air">Air Pollution</span><span class="tag tag-methods" data-filter="methods">Methods</span>
 </div>
 </div>
 <div class="pub-item" data-topics="air methods">
 Daouda M, Mujtaba MN, Yang Q, Seyram K, Lee AG, Tawiah T, et al.&nbsp;“Prediction of personal exposure to PM2.5 in mother-child pairs in rural Ghana.” <em>Journal of Exposure Science &amp; Environmental Epidemiology</em> 32(4), 629–636 (2022). <a href="https://scholar.google.com/scholar?q=Prediction+of+personal+exposure+to+PM2.5+in+mother-child+pairs+in+rural+Ghana">Link</a>
 <div>
-<span class="tag tag-air">Air Pollution</span><span class="tag tag-methods">Methods</span>
+<span class="tag tag-air" data-filter="air">Air Pollution</span><span class="tag tag-methods" data-filter="methods">Methods</span>
 </div>
 </div>
 </div>
 <script>
 (function() {
   var buttons = document.querySelectorAll('.pub-filter-btn');
+  var tags = document.querySelectorAll('#pub-list .tag[data-filter]');
   var items = document.querySelectorAll('.pub-item');
+
+  function applyFilter(filter) {
+    buttons.forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-filter') === filter);
+    });
+    items.forEach(function(item) {
+      var topics = (item.getAttribute('data-topics') || '').split(' ');
+      item.hidden = !(filter === 'all' || topics.indexOf(filter) !== -1);
+    });
+  }
+
   buttons.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      buttons.forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      var filter = btn.getAttribute('data-filter');
-      items.forEach(function(item) {
-        var topics = (item.getAttribute('data-topics') || '').split(' ');
-        item.hidden = !(filter === 'all' || topics.indexOf(filter) !== -1);
-      });
+      applyFilter(btn.getAttribute('data-filter'));
+    });
+  });
+
+  tags.forEach(function(tag) {
+    tag.style.cursor = 'pointer';
+    tag.addEventListener('click', function() {
+      applyFilter(tag.getAttribute('data-filter'));
     });
   });
 })();

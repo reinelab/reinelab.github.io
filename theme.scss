@@ -200,6 +200,15 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
   margin-right: 0.3rem;
+  transition: opacity 0.15s ease;
+}
+
+#pub-list .tag[data-filter] {
+  cursor: pointer;
+}
+
+#pub-list .tag[data-filter]:hover {
+  opacity: 0.75;
 }
 
 .tag-air { background-color: $blue; }
