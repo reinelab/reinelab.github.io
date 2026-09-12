@@ -3,7 +3,7 @@ title: ""
 ---
 
 ::: {.hero}
-<div class="wordmark"><span class="accent">REINE</span> Lab</div>
+<div class="wordmark">REINE Lab</div>
 
 <p class="reine-meaning" id="reine-meaning">Resilience, Energy, and Inequity in Neighborhood Environments</p>
 
@@ -36,12 +36,12 @@ title: ""
 
 <div class="card-grid">
 
-<div class="research-card accent-blue">
+<div class="research-card">
 ### Energy Transitions & Equity
 Who benefits, and who is left behind, when households and communities shift to cleaner energy — from charcoal-to-gas to gas-to-induction.
 </div>
 
-<div class="research-card accent-orange">
+<div class="research-card">
 ### Climate, Infrastructure & Health
 Power outages, extreme heat, and the health consequences of climate-strained energy infrastructure.
 </div>

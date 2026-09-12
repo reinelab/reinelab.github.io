@@ -6,12 +6,12 @@ title: ""
 
 <div class="card-grid">
 
-<div class="research-card accent-blue">
+<div class="research-card">
 ### Climate & Environmental Solutions
 Interventions and policies addressing climate-related health risks — from clean cooking in West Africa to building electrification in the US — evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
 </div>
 
-<div class="research-card accent-orange">
+<div class="research-card">
 ### Climate, Infrastructure & Health
 How climate change strains the infrastructure people depend on — power outages, extreme heat, air pollution — and who bears the health consequences, including a new air pollution and heat monitoring network in Benin.
 </div>
@@ -32,7 +32,7 @@ How the methods used to quantify environmental disparities shape what gets seen,
 
 Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
 
-<div><span class="tag tag-energy">Energy</span><span class="tag tag-air">Air Pollution</span></div>
+<div><span class="tag">Energy</span><span class="tag">Air Pollution</span></div>
 </div>
 
 <div class="project-card">
@@ -40,7 +40,7 @@ Evaluating the maternal and infant health consequences of large power outages an
 
 Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
 
-<div><span class="tag tag-energy">Energy</span></div>
+<div><span class="tag">Energy</span></div>
 </div>
 
 <div class="project-card">
@@ -48,7 +48,7 @@ Evaluating cooking electrification and ventilation improvements in households wi
 
 Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
 
-<div><span class="tag tag-air">Air Pollution</span></div>
+<div><span class="tag">Air Pollution</span></div>
 </div>
 
 </div>

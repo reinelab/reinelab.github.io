@@ -1,35 +1,30 @@
 /*-- scss:defaults --*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
 
-// Environmental palette
-$navy:    #16263B;  // deep navy — headings, navbar, wordmark
-$cream:   #FBF6EA;  // warm cream — page background
-$orange:  #F2622E;  // electric orange — sparing emphasis only
-$blue:    #3E7CB1;  // climate blue — links, primary accent
-$sage:    #93AC81;  // soft sage — cards, tags, secondary accent
-$sage-tint: #EEF1E6; // very light sage, for card backgrounds
-$rule:    #E2DBC8;  // warm hairline/border color
+// Restrained palette: cream + ink, one accent used sparingly
+$cream:   #FBF6EA;  // page background
+$ink:     #1E2A38;  // body text, headings, borders — deep navy-ink
+$ink-soft: rgba(30, 42, 56, 0.7);
+$orange:  #E85D2F;  // the one accent — emphasis only
+$rule:    #DCD4BE;  // hairline borders
 
 $body-bg: $cream;
-$body-color: $navy;
-$link-color: $blue;
+$body-color: $ink;
+$link-color: $ink;
 $link-hover-color: $orange;
 
-$navbar-bg: $navy;
+$navbar-bg: $ink;
 $navbar-fg: $cream;
 
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
-$headings-font-family: "Space Grotesk", "Lora", Georgia, serif;
-$headings-color: $navy;
+$headings-font-family: "Lora", Georgia, serif;
+$headings-color: $ink;
 $headings-font-weight: 700;
 
 $border-color: $rule;
 
-// Bootstrap forces a dark navbar attribute regardless of theme;
-// pin its variables directly so hover/active read as intended.
 $navbar-dark-color: $cream;
 $navbar-dark-hover-color: $orange;
 $navbar-dark-active-color: $orange;
@@ -43,9 +38,8 @@ body {
 }
 
 .navbar-title {
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 .navbar,
@@ -58,7 +52,7 @@ body {
 }
 
 hr {
-  border-top: 1px dashed $rule;
+  border-top: 1px solid $rule;
   opacity: 1;
 }
 
@@ -67,13 +61,12 @@ h1, h2, h3 {
 }
 
 h2 {
-  border-bottom: 1px dashed $rule;
+  border-bottom: 1px solid $rule;
   padding-bottom: 0.3rem;
 }
 
 a {
-  color: $blue;
-  font-weight: 700;
+  color: $ink;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
@@ -86,134 +79,103 @@ a:hover {
 // ---------- Homepage hero ----------
 
 .hero {
-  position: relative;
-  margin: -1.5rem -1.5rem 2rem -1.5rem;
-  padding: 4rem 1.5rem 3rem 1.5rem;
-  overflow: hidden;
-  background-color: $navy;
-  background-image:
-    linear-gradient(180deg, rgba(22,38,59,0.88), rgba(22,38,59,0.94)),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M64 0H0V64' fill='none' stroke='%2393AC81' stroke-width='1' opacity='0.35'/%3E%3Ccircle cx='0' cy='0' r='2.5' fill='%23F2622E' opacity='0.55'/%3E%3Ccircle cx='32' cy='32' r='1.5' fill='%233E7CB1' opacity='0.5'/%3E%3C/svg%3E");
-  background-size: cover, 64px 64px;
-  text-align: center;
+  padding: 2.5rem 0 2rem 0;
+  border-bottom: 1px solid $rule;
+  margin-bottom: 2rem;
 }
 
 .hero .wordmark {
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  font-size: clamp(3rem, 9vw, 6rem);
-  letter-spacing: 0.03em;
-  color: $cream;
-  margin: 0 0 0.5rem 0;
-  line-height: 1;
-}
-
-.hero .wordmark .accent {
-  color: $orange;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  letter-spacing: 0.01em;
+  color: $ink;
+  margin: 0 0 0.4rem 0;
+  line-height: 1.05;
 }
 
 .hero .reine-meaning {
-  color: rgba(251, 246, 234, 0.85);
-  font-size: 1.2rem;
-}
-
-.hero .hero-tagline {
-  max-width: 640px;
-  margin: 1rem auto 0 auto;
-  color: rgba(251, 246, 234, 0.9);
+  color: $ink-soft;
   font-size: 1.05rem;
 }
 
+.hero .hero-tagline {
+  max-width: 620px;
+  margin: 1rem 0 0 0;
+  font-size: 1.02rem;
+}
+
 .hero .hero-affiliation {
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  color: rgba(251, 246, 234, 0.65);
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
+  color: $ink-soft;
 }
 
-.hero .hero-affiliation a {
-  color: rgba(251, 246, 234, 0.85);
-}
-
-// ---------- Cards (shared) ----------
+// ---------- Cards (shared, plain) ----------
 
 .person-block {
-  background-color: $sage-tint;
+  background-color: transparent;
   border: 1px solid $rule;
-  border-left: 3px solid $sage;
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 1.25rem 1.5rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
   overflow: auto;
 }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.75rem 0;
 }
 
 .research-card {
-  background-color: #ffffff;
   border: 1px solid $rule;
-  border-top: 4px solid $sage;
-  border-radius: 4px;
-  padding: 1.5rem;
+  border-radius: 2px;
+  padding: 1.4rem;
 }
 
-.research-card.accent-blue { border-top-color: $blue; }
-.research-card.accent-orange { border-top-color: $orange; }
-
 .research-card h3 {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   margin-top: 0;
 }
 
 .research-card p {
   font-size: 0.95rem;
-  color: lighten($navy, 12%);
+  color: $ink-soft;
   margin-bottom: 0;
 }
 
 .project-card {
-  background-color: $sage-tint;
-  border-radius: 4px;
-  padding: 1.1rem 1.3rem;
   border: 1px solid $rule;
+  border-radius: 2px;
+  padding: 1rem 1.25rem;
 }
 
-.project-card .tag {
-  display: inline-block;
-  margin-top: 0.5rem;
-}
-
-// ---------- Tags / topic badges ----------
+// ---------- Tags — plain outlined labels, one style only ----------
 
 .tag {
   display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  padding: 0.15rem 0.55rem;
-  border-radius: 999px;
-  color: #ffffff;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid $ink;
+  border-radius: 2px;
+  color: $ink;
+  background: transparent;
   text-decoration: none;
-  margin-right: 0.3rem;
-  transition: opacity 0.15s ease;
+  margin-right: 0.35rem;
 }
 
-#pub-list .tag[data-filter] {
+#pub-list .tag {
   cursor: pointer;
 }
 
-#pub-list .tag[data-filter]:hover {
-  opacity: 0.75;
+#pub-list .tag:hover {
+  border-color: $orange;
+  color: $orange;
 }
-
-.tag-air { background-color: $blue; }
-.tag-energy { background-color: $orange; }
-.tag-methods { background-color: $sage; }
 
 // ---------- Publications filter ----------
 
@@ -225,38 +187,34 @@ a:hover {
 }
 
 .pub-filter-btn {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  background: #ffffff;
-  border: 1px solid $rule;
-  color: $navy;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
+  background: transparent;
+  border: 1px solid $ink;
+  color: $ink;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
   cursor: pointer;
-  transition: all 0.15s ease;
 }
 
 .pub-filter-btn:hover {
-  border-color: $blue;
-}
-
-.pub-filter-btn.active {
-  background: $navy;
-  border-color: $navy;
-  color: #ffffff;
-}
-
-.pub-filter-btn.active .count {
+  border-color: $orange;
   color: $orange;
 }
 
+.pub-filter-btn.active {
+  background: $ink;
+  border-color: $ink;
+  color: $cream;
+}
+
 .pub-item {
-  background: #ffffff;
-  border: 1px solid $rule;
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 0.9rem;
+  border-bottom: 1px solid $rule;
+  padding: 1rem 0;
+}
+
+.pub-item:first-of-type {
+  padding-top: 0;
 }
 
 .pub-item[hidden] {
@@ -266,7 +224,7 @@ a:hover {
 // ---------- News ----------
 
 .news-item {
-  border-bottom: 1px dashed $rule;
+  border-bottom: 1px solid $rule;
   padding: 1.25rem 0;
 }
 
@@ -275,7 +233,6 @@ a:hover {
 }
 
 .news-date {
-  font-family: "Space Grotesk", sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -302,7 +259,7 @@ a:hover {
   margin: 0;
   position: relative;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid $rule;
   aspect-ratio: 1 / 1;
 }
