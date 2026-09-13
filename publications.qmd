@@ -21,32 +21,32 @@ Daouda M, Gould CF. "Encoding Justice with Data: Environmental Justice Screening
 </div>
 
 <div class="pub-item" data-topics="air methods">
-Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010." *Nature Communications* 15, 268 (2024).
+Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An Environmental Justice Analysis of Air Pollution Emissions in the United States from 1970 to 2010." *Nature Communications* (2024).
 <span class="tag" data-filter="air">Air Pollution</span> <span class="tag" data-filter="methods">Methods</span> [Link](https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010)
 </div>
 
 <div class="pub-item" data-topics="energy air">
-Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al. "Out of gas, in with justice: findings from a gas-to-induction pilot in low-income housing in NYC." *Energy Research & Social Science* 116, 103662 (2024).
+Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al. "Out of Gas, in with Justice: Findings from a Gas-to-Induction Pilot in Low-Income Housing in NYC." *Energy Research & Social Science* (2024).
 <span class="tag" data-filter="energy">Energy</span> <span class="tag" data-filter="air">Air Pollution</span> [Link](https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC)
 </div>
 
 <div class="pub-item" data-topics="air">
-Daouda M, Kaali S, Spring E, Mujtaba MN, Jack D, Dwommoh Prah RK, et al. "Prenatal Household Air Pollution Exposure and Childhood Blood Pressure in Rural Ghana." *Environmental Health Perspectives* 132(3), 037006 (2024).
+Daouda M, Kaali S, Spring E, Mujtaba MN, Jack D, Dwommoh Prah RK, et al. "Prenatal Household Air Pollution Exposure and Childhood Blood Pressure in Rural Ghana." *Environmental Health Perspectives* (2024).
 <span class="tag" data-filter="air">Air Pollution</span> [Link](https://ehp.niehs.nih.gov/doi/10.1289/EHP13225)
 </div>
 
 <div class="pub-item" data-topics="methods">
-Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in public health environmental justice research: a scoping review from 2018 to 2021." *Current Environmental Health Reports* 10(3), 312–336 (2023).
+Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in Public Health Environmental Justice Research: A Scoping Review from 2018 to 2021." *Current Environmental Health Reports* (2023).
 <span class="tag" data-filter="methods">Methods</span> [Link](https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021)
 </div>
 
 <div class="pub-item" data-topics="methods air">
-Daouda M, Henneman L, Goldsmith J, Kioumourtzoglou MA, Casey JA. "Racial/ethnic disparities in nationwide PM2.5 concentrations: perils of assuming a linear relationship." *Environmental Health Perspectives* 130(7), 077701 (2022).
+Daouda M, Henneman L, Goldsmith J, Kioumourtzoglou MA, Casey JA. "Racial/Ethnic Disparities in Nationwide PM2.5 Concentrations: Perils of Assuming a Linear Relationship." *Environmental Health Perspectives* (2022).
 <span class="tag" data-filter="methods">Methods</span> <span class="tag" data-filter="air">Air Pollution</span> [Link](https://scholar.google.com/scholar?q=Racial+ethnic+disparities+in+nationwide+PM2.5+concentrations+perils+of+assuming+a+linear+relationship)
 </div>
 
 <div class="pub-item" data-topics="energy air">
-Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al. "Association between county-level coal-fired power plant pollution and racial disparities in preterm births from 2000 to 2018." *Environmental Research Letters* 16(3), 034055 (2021).
+Daouda M, Henneman L, Kioumourtzoglou MA, Gemmill A, Zigler C, et al. "Association between County-Level Coal-Fired Power Plant Pollution and Racial Disparities in Preterm Births from 2000 to 2018." *Environmental Research Letters* (2021).
 <span class="tag" data-filter="energy">Energy</span> <span class="tag" data-filter="air">Air Pollution</span> [Link](https://scholar.google.com/scholar?q=Association+between+county-level+coal-fired+power+plant+pollution+and+racial+disparities+in+preterm+births)
 </div>
 
