@@ -4,22 +4,25 @@ title: ""
 
 # Research
 
-### Energy Transitions & Equity
+### Energy Transitions and Equity
 
-Interventions and policies addressing climate-related health risks, from clean cooking in West Africa to building electrification in the US, evaluated on health, exposure, energy insecurity, and quality of life, not just pollution levels.
+We evaluate interventions and policies intended to address environmental and energy-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States. We assess outcomes such as health, personal exposure to air pollution and heat, energy insecurity, time and labor, and quality of life. 
 
-- **Cooking Electrification and Children's Asthma:** Evaluating cooking electrification and ventilation improvements in households with children with asthma in California's San Joaquin Valley.
+- **Cooking Electrification and Children's Asthma** 
 
 ### Climate, Infrastructure, and Health
 
-How climate change strains the infrastructure people depend on, including power outages, extreme heat, and air pollution, and who bears the health consequences. Current work includes a new air pollution and heat monitoring network in Benin.
+We study how climate change interacts with the infrastructure and environmental conditions that people depend on to stay healthy. One focus is energy-system vulnerability, including power outages and whether their impacts amplify extreme weather risks or are concentrated among populations already facing environmental and social disadvantage.
 
-- **Power Outages and Preterm Birth in the United States:** Evaluating the maternal and infant health consequences of large power outages and differences in vulnerability across populations.
-- **Benin Initiative for Clean Air Solutions:** Establishing ground-based air pollution and heat monitoring while strengthening locally led environmental health research capacity.
+- **Power Outages and Preterm Birth in the United States** 
+
+- **Benin Initiative for Clean Air Solutions** 
 
 ### Environmental Justice Methods
 
-How the methods used to quantify environmental disparities shape what gets seen, and what gets left out of policy.
+A complementary area of our research examines how environmental inequities are measured, quantified, and translated into policy. We study the methodological choices that shape conclusions about disparities and environmental justice, particularly when complex social and environmental processes are at play.
+
+- **Environmental Justice Screening Tools and the Limits of Quantification** 
 
 ### Funding
 
