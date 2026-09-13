@@ -4,25 +4,40 @@ title: ""
 
 # Research
 
+<div class="card-grid">
+
+<div class="research-card">
 ### Energy Transitions and Equity
 
-We evaluate interventions and policies intended to address environmental and energy-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States. We assess outcomes such as health, personal exposure to air pollution and heat, energy insecurity, time and labor, and quality of life. 
+We evaluate interventions and policies intended to address environmental and energy-related health risks. Much of this work examines transitions in household and building energy systems, from clean cooking interventions in West Africa to building electrification in the United States. We assess outcomes such as health, personal exposure to air pollution and heat, energy insecurity, time and labor, and quality of life.
 
-- **Cooking Electrification and Children's Asthma** 
+<p class="example-label">Example projects</p>
 
+- **Cooking Electrification and Children's Asthma**
+</div>
+
+<div class="research-card">
 ### Climate, Infrastructure, and Health
 
 We study how climate change interacts with the infrastructure and environmental conditions that people depend on to stay healthy. One focus is energy-system vulnerability, including power outages and whether their impacts amplify extreme weather risks or are concentrated among populations already facing environmental and social disadvantage.
 
-- **Power Outages and Preterm Birth in the United States** 
+<p class="example-label">Example projects</p>
 
-- **Benin Initiative for Clean Air Solutions** 
+- **Power Outages and Preterm Birth in the United States**
+- **Benin Initiative for Clean Air Solutions**
+</div>
 
+<div class="research-card">
 ### Environmental Justice Methods
 
 A complementary area of our research examines how environmental inequities are measured, quantified, and translated into policy. We study the methodological choices that shape conclusions about disparities and environmental justice, particularly when complex social and environmental processes are at play.
 
-- **Environmental Justice Screening Tools and the Limits of Quantification** 
+<p class="example-label">Example projects</p>
+
+- **Environmental Justice Screening Tools and the Limits of Quantification**
+</div>
+
+</div>
 
 ### Funding
 

@@ -149,6 +149,21 @@ a:hover {
   margin-bottom: 0;
 }
 
+.research-card .example-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $ink-soft;
+  margin: 1.1rem 0 0.4rem 0;
+}
+
+.research-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+}
+
 .project-card {
   border: 1px solid $rule;
   border-radius: 2px;
@@ -246,7 +261,7 @@ a:hover {
 
 .news-thumb {
   display: block;
-  width: 260px;
+  width: 360px;
   max-width: 100%;
   border: 1px solid $rule;
   border-radius: 2px;
