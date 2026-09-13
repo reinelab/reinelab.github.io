@@ -17,5 +17,9 @@ Discussing findings from her research on how switching from gas to electric cook
 
 **Misbath Daouda on PBS NewsHour: the environmental and health effects of gas stoves**
 
+<a href="https://www.pbs.org/newshour/show/a-look-at-the-environmental-and-health-effects-associated-with-gas-stoves">
+<img src="images/press-feature.png" alt="Misbath Daouda on PBS NewsHour" class="news-thumb"/>
+</a>
+
 A conversation on how combustion byproducts from gas stoves affect indoor air quality and respiratory health, and what the research shows about switching to electric and induction alternatives. [Watch the segment](https://www.pbs.org/newshour/show/a-look-at-the-environmental-and-health-effects-associated-with-gas-stoves)
 </div>

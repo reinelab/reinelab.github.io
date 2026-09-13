@@ -244,6 +244,15 @@ a:hover {
   color: $orange;
 }
 
+.news-thumb {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  margin: 0.75rem 0;
+}
+
 // ---------- Photo grid ----------
 
 .photo-grid {

@@ -2,7 +2,7 @@
 title: ""
 ---
 
-# Publications
+# Selected Publications
 
 For the full and most current list, see [Google Scholar](https://scholar.google.com/citations?user=-NQvKekAAAAJ&hl=en).
 
@@ -15,6 +15,11 @@ For the full and most current list, see [Google Scholar](https://scholar.google.
 
 <div id="pub-list">
 
+<div class="pub-item" data-topics="methods">
+Daouda M, Gould CF. "Encoding Justice with Data: Environmental Justice Screening Tools and the Limits of Quantification." *Current Environmental Health Reports* (2026).
+<span class="tag" data-filter="methods">Methods</span> [Link](https://link.springer.com/article/10.1007/s40572-026-00543-9)
+</div>
+
 <div class="pub-item" data-topics="air methods">
 Nunez Y, Benavides J, Shearston JA, Krieger EM, Daouda M, et al. "An environmental justice analysis of air pollution emissions in the United States from 1970 to 2010." *Nature Communications* 15, 268 (2024).
 <span class="tag" data-filter="air">Air Pollution</span> <span class="tag" data-filter="methods">Methods</span> [Link](https://scholar.google.com/scholar?q=An+environmental+justice+analysis+of+air+pollution+emissions+in+the+United+States+from+1970+to+2010)
@@ -25,6 +30,11 @@ Daouda M, Carforo A, Miller H, Ventrella J, Tan YA, Feliciano M, Tryner J, et al
 <span class="tag" data-filter="energy">Energy</span> <span class="tag" data-filter="air">Air Pollution</span> [Link](https://scholar.google.com/scholar?q=Out+of+gas+in+with+justice+findings+from+a+gas-to-induction+pilot+in+low-income+housing+in+NYC)
 </div>
 
+<div class="pub-item" data-topics="air">
+Daouda M, Kaali S, Spring E, Mujtaba MN, Jack D, Dwommoh Prah RK, et al. "Prenatal Household Air Pollution Exposure and Childhood Blood Pressure in Rural Ghana." *Environmental Health Perspectives* 132(3), 037006 (2024).
+<span class="tag" data-filter="air">Air Pollution</span> [Link](https://ehp.niehs.nih.gov/doi/10.1289/EHP13225)
+</div>
+
 <div class="pub-item" data-topics="methods">
 Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in public health environmental justice research: a scoping review from 2018 to 2021." *Current Environmental Health Reports* 10(3), 312–336 (2023).
 <span class="tag" data-filter="methods">Methods</span> [Link](https://scholar.google.com/scholar?q=Methods+in+public+health+environmental+justice+research+a+scoping+review+from+2018+to+2021)
@@ -33,11 +43,6 @@ Casey JA, Daouda M, Babadi RS, Do V, Flores NM, Berzansky I, et al. "Methods in 
 <div class="pub-item" data-topics="methods air">
 Daouda M, Henneman L, Goldsmith J, Kioumourtzoglou MA, Casey JA. "Racial/ethnic disparities in nationwide PM2.5 concentrations: perils of assuming a linear relationship." *Environmental Health Perspectives* 130(7), 077701 (2022).
 <span class="tag" data-filter="methods">Methods</span> <span class="tag" data-filter="air">Air Pollution</span> [Link](https://scholar.google.com/scholar?q=Racial+ethnic+disparities+in+nationwide+PM2.5+concentrations+perils+of+assuming+a+linear+relationship)
-</div>
-
-<div class="pub-item" data-topics="air methods">
-Daouda M, Mujtaba MN, Yang Q, Seyram K, Lee AG, Tawiah T, et al. "Prediction of personal exposure to PM2.5 in mother-child pairs in rural Ghana." *Journal of Exposure Science & Environmental Epidemiology* 32(4), 629–636 (2022).
-<span class="tag" data-filter="air">Air Pollution</span> <span class="tag" data-filter="methods">Methods</span> [Link](https://scholar.google.com/scholar?q=Prediction+of+personal+exposure+to+PM2.5+in+mother-child+pairs+in+rural+Ghana)
 </div>
 
 <div class="pub-item" data-topics="energy air">
