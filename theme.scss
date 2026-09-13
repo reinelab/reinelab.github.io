@@ -88,6 +88,14 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.hero-banner {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin-bottom: 1.25rem;
+}
+
 .hero .wordmark {
   font-weight: 700;
   font-size: clamp(2.4rem, 6vw, 3.6rem);
