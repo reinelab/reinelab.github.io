@@ -1,36 +1,35 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-// New Yorker–inspired: black ink on white, serif display type,
-// rules instead of color, emphasis via italics rather than accent hues
+// Restrained palette: white + ink, one accent used sparingly
 $cream:   #FFFFFF;  // page background
-$ink:     #111111;  // body text, headings, rules — near-black
-$ink-soft: rgba(17, 17, 17, 0.65);
-$orange:  #B23A2E;  // used only as a faint vestige, not for UI state
-$rule:    #111111;  // hairlines and borders are black, print-style
+$ink:     #1E2A38;  // body text, headings, borders — deep navy-ink
+$ink-soft: rgba(30, 42, 56, 0.7);
+$orange:  #E85D2F;  // the one accent — emphasis only
+$rule:    #DDDDDD;  // hairline borders
 
 $body-bg: $cream;
 $body-color: $ink;
 $link-color: $ink;
-$link-hover-color: $ink;
+$link-hover-color: $orange;
 
 $navbar-bg: $cream;
 $navbar-fg: $ink;
 
 $font-family-sans-serif: "Lora", Georgia, serif;
 $font-family-serif: "Lora", Georgia, serif;
-$headings-font-family: "Playfair Display", Georgia, serif;
+$headings-font-family: "Lora", Georgia, serif;
 $headings-color: $ink;
 $headings-font-weight: 700;
 
 $border-color: $rule;
 
-$navbar-dark-color: $ink;
-$navbar-dark-hover-color: $ink;
-$navbar-dark-active-color: $ink;
+$navbar-dark-color: $ink-soft;
+$navbar-dark-hover-color: $orange;
+$navbar-dark-active-color: $orange;
 $navbar-dark-brand-color: $ink;
-$navbar-dark-brand-hover-color: $ink;
+$navbar-dark-brand-hover-color: $orange;
 
 /*-- scss:rules --*/
 
@@ -39,48 +38,21 @@ body {
 }
 
 .navbar-title {
-  font-family: "Lora", Georgia, serif;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.95rem;
+  letter-spacing: 0.01em;
 }
 
 .navbar,
 .navbar[data-bs-theme="dark"] {
-  --bs-navbar-color: #{$ink};
-  --bs-navbar-hover-color: #{$ink};
-  --bs-navbar-active-color: #{$ink};
+  --bs-navbar-color: #{$ink-soft};
+  --bs-navbar-hover-color: #{$orange};
+  --bs-navbar-active-color: #{$orange};
   --bs-navbar-brand-color: #{$ink};
-  --bs-navbar-brand-hover-color: #{$ink};
-}
-
-.navbar .nav-link {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.85rem;
-}
-
-.navbar .nav-link.active,
-.navbar .nav-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  --bs-navbar-brand-hover-color: #{$orange};
 }
 
 #quarto-header {
-  border-bottom: 3px solid $ink;
-  position: relative;
-  margin-bottom: 6px;
-}
-
-#quarto-header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -6px;
-  height: 1px;
-  background: $ink;
+  border-bottom: 1px solid $rule;
 }
 
 hr {
@@ -90,10 +62,6 @@ hr {
 
 h1, h2, h3 {
   font-weight: 700;
-}
-
-h1 {
-  font-style: italic;
 }
 
 h2 {
@@ -109,8 +77,7 @@ a {
 }
 
 a:hover {
-  color: $ink;
-  text-decoration-thickness: 2px;
+  color: $orange;
 }
 
 // ---------- Homepage hero ----------
@@ -122,11 +89,9 @@ a:hover {
 }
 
 .hero .wordmark {
-  font-family: "Playfair Display", Georgia, serif;
-  font-style: italic;
   font-weight: 700;
-  font-size: clamp(2.8rem, 7vw, 4.4rem);
-  letter-spacing: 0;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  letter-spacing: 0.01em;
   color: $ink;
   margin: 0 0 0.4rem 0;
   line-height: 1.05;
@@ -134,25 +99,13 @@ a:hover {
 
 .hero .reine-meaning {
   color: $ink-soft;
-  font-style: italic;
   font-size: 1.05rem;
 }
 
 .hero .hero-tagline {
   max-width: 620px;
   margin: 1rem 0 0 0;
-  font-size: 1.05rem;
-}
-
-.hero .hero-tagline::first-letter {
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 700;
-  font-size: 3.1rem;
-  float: left;
-  line-height: 0.78;
-  padding-right: 0.35rem;
-  padding-top: 0.15rem;
-  color: $ink;
+  font-size: 1.02rem;
 }
 
 .hero .hero-affiliation {
@@ -166,7 +119,7 @@ a:hover {
 .person-block {
   background-color: transparent;
   border: 1px solid $rule;
-  border-radius: 0;
+  border-radius: 2px;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1.5rem;
   overflow: auto;
@@ -181,7 +134,7 @@ a:hover {
 
 .research-card {
   border: 1px solid $rule;
-  border-radius: 0;
+  border-radius: 2px;
   padding: 1.4rem;
 }
 
@@ -213,7 +166,7 @@ a:hover {
 
 .project-card {
   border: 1px solid $rule;
-  border-radius: 0;
+  border-radius: 2px;
   padding: 1rem 1.25rem;
 }
 
@@ -227,7 +180,7 @@ a:hover {
   letter-spacing: 0.04em;
   padding: 0.1rem 0.5rem;
   border: 1px solid $ink;
-  border-radius: 0;
+  border-radius: 2px;
   color: $ink;
   background: transparent;
   text-decoration: none;
@@ -239,8 +192,8 @@ a:hover {
 }
 
 #pub-list .tag:hover {
-  background: $ink;
-  color: $cream;
+  border-color: $orange;
+  color: $orange;
 }
 
 // ---------- Publications filter ----------
@@ -259,13 +212,13 @@ a:hover {
   border: 1px solid $ink;
   color: $ink;
   padding: 0.3rem 0.8rem;
-  border-radius: 0;
+  border-radius: 2px;
   cursor: pointer;
 }
 
 .pub-filter-btn:hover {
-  background: $ink;
-  color: $cream;
+  border-color: $orange;
+  color: $orange;
 }
 
 .pub-filter-btn.active {
@@ -303,7 +256,7 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: $ink;
+  color: $orange;
 }
 
 .news-thumb {
@@ -311,7 +264,7 @@ a:hover {
   width: 360px;
   max-width: 100%;
   border: 1px solid $rule;
-  border-radius: 0;
+  border-radius: 2px;
   margin: 0.75rem 0;
 }
 
@@ -334,7 +287,7 @@ a:hover {
   margin: 0;
   position: relative;
   overflow: hidden;
-  border-radius: 0;
+  border-radius: 2px;
   border: 1px solid $rule;
   aspect-ratio: 1 / 1;
 }
@@ -344,7 +297,6 @@ a:hover {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(0.15);
   transition: transform 0.35s ease;
 }
 
@@ -358,10 +310,9 @@ a:hover {
   right: 0;
   bottom: 0;
   padding: 0.4rem 0.6rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  background: linear-gradient(to top, rgba(0,0,0,0.55), rgba(0,0,0,0));
   color: #fff;
   font-size: 0.8rem;
-  font-style: italic;
   opacity: 0;
   transition: opacity 0.35s ease;
 }
